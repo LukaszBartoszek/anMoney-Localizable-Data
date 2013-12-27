@@ -18,8 +18,8 @@
 	<string name="mark_transaction">Zaznacz transakcję</string>
 <!-- New Fix plurals -->	<string-array name="mark_transactions_format_plurals">
 		<item/> <!-- Intentionally left empty -->
-		<item>Mark ^1 transakcje</item>
-		<item>Mark ^1 transakcje</item>
+		<item>Zaznacz ^1 transakcje</item>
+		<item>Zaznacz ^1 transakcje</item>
 	</string-array>
 	<string name="mark_transactions_all">Zaznacz <b>wszystkie</b> transakcje</string>
 	<string name="unreconciled1">Niezgodny</string>

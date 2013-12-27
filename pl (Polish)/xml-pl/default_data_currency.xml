@@ -1,454 +1,736 @@
 <?xml version="1.0" encoding="utf-8"?>
 <records>
 	<record>
+		<region>Zjednoczone Emiraty Arabskie</region>
+		<name>Dirham Zjednoczoneych Emiratów Arabskich</name>
+		<symbol>Dhs</symbol>
+		<symbolLeading>0</symbolLeading>
+		<iso4217>AED</iso4217>
+		<iso3166>AE</iso3166>
+	</record>
+    	<record>
 		<region>Argentyna</region>
 		<name>Peso argentyńskie</name>
+		<symbol>AR$</symbol>
+		<symbolLeading>1</symbolLeading>
 		<iso4217>ARS</iso4217>
+		<iso3166>AR</iso3166>
 	</record>
 	<record>
 		<region>Australia</region>
 		<name>Dolar australijski</name>
+		<symbol>A$</symbol>
+		<symbolLeading>1</symbolLeading>
 		<iso4217>AUD</iso4217>
+		<iso3166>AU</iso3166>
 	</record>
-	<record>
-		<region>Bahrajn</region>
-		<name>Dinar bahrański</name>
-		<iso4217>BHD</iso4217>
-	</record>
-	<record>
-		<region>Barbados</region>
-		<name>Dolar Barbadosu</name>
-		<iso4217>BBD</iso4217>
-	</record>
-	<record>
-		<region>Boliwia</region>
-		<name>Boliviano</name>
-		<iso4217>BOB</iso4217>
-	</record>
-	<record>
-		<region>Brazylia</region>
-		<name>Real brazylijski</name>
-		<iso4217>BRL</iso4217>
-	</record>
-	<record>
-		<region>Wielka Brytania</region>
-		<name>Funt szterling</name>
-		<iso4217>GBP</iso4217>
-	</record>
-	<record>
-		<region>Kanada</region>
-		<name>Dolar kanadyjski</name>
-		<iso4217>CAD</iso4217>
-	</record>
-	<record>
-		<region>Kamerun</region>
-		<name>Frank CFA BEAC</name>
-		<iso4217>XAF</iso4217>
-	</record>
-	<record>
-		<region>Chile</region>
-		<name>Peso chilijskie</name>
-		<iso4217>CLP</iso4217>
-	</record>
-	<record>
-		<region>Chiny</region>
-		<name>Juan renminbi</name>
-		<iso4217>CNY</iso4217>
-	</record>
-	<record>
-		<region>Kolumbia</region>
-		<name>Peso kolumbijskie</name>
-		<iso4217>COP</iso4217>
-	</record>
-	<record>
-		<region>Czechy</region>
-		<name>Korona czeska</name>
-		<iso4217>CZK</iso4217>
-	</record>
-	<record>
-		<region>Dania</region>
-		<name>Korona duńska</name>
-		<iso4217>DKK</iso4217>
-	</record>
-	<record>
-		<region>Antigua i Barbuda</region>
-		<name>Dolar wschodniokaraibski</name>
-		<iso4217>XCD</iso4217>
-	</record>
-	<record>
-		<region>Egipt</region>
-		<name>Funt egipski</name>
-		<iso4217>EGP</iso4217>
-	</record>
-	<record>
-		<region>Zjednoczone Emiraty Arabskie</region>
-		<name>Dirham arabski</name>
-		<iso4217>AED</iso4217>
-	</record>
-	<record>
-		<region>Strefy Euro</region>
-		<name>Euro</name>
-		<iso4217>EUR</iso4217>
-	</record>
-	<record>
-		<region>Hongkong</region>
-		<name>Dolar hongkoński</name>
-		<iso4217>HKD</iso4217>
-	</record>
-	<record>
-		<region>Węgry</region>
-		<name>Forint węgierski</name>
-		<iso4217>HUF</iso4217>
-	</record>
-	<record>
-		<region>Islandia</region>
-		<name>Korona islandzka</name>
-		<iso4217>ISK</iso4217>
-	</record>
-	<record>
-		<region>Indie</region>
-		<name>Rupia indyjska</name>
-		<iso4217>INR</iso4217>
-	</record>
-	<record>
-		<region>Indonezja</region>
-		<name>Rupia indonezyjska</name>
-		<iso4217>IDR</iso4217>
-	</record>
-	<record>
-		<region>Izrael</region>
-		<name>Nowy szekel izraelski</name>
-		<iso4217>ILS</iso4217>
-	</record>
-	<record>
-		<region>Jamajka</region>
-		<name>Dolar jamajski</name>
-		<iso4217>JMD</iso4217>
-	</record>
-	<record>
-		<region>Japonia</region>
-		<name>Jen japoński</name>
-		<iso4217>JPY</iso4217>
-	</record>
-	<record>
-		<region>Jordania</region>
-		<name>Dinar jordański</name>
-		<iso4217>JOD</iso4217>
-	</record>
-	<record>
-		<region>Kenia</region>
-		<name>Szyling kenijski</name>
-		<iso4217>KES</iso4217>
-	</record>
-	<record>
-		<region>Korea Południowa</region>
-		<name>Won południowokoreański</name>
-		<iso4217>KRW</iso4217>
-	</record>
-	<record>
-		<region>Kuwejt</region>
-		<name>Dinar kuwejcki</name>
-		<iso4217>KWD</iso4217>
-	</record>
-	<record>
-		<region>Łotwa</region>
-		<name>Łat łotewski</name>
-		<iso4217>LVL</iso4217>
-	</record>
-	<record>
-		<region>Liban</region>
-		<name>Funt libański</name>
-		<iso4217>LBP</iso4217>
-	</record>
-	<record>
-		<region>Litwa</region>
-		<name>Lit litewski</name>
-		<iso4217>LTL</iso4217>
-	</record>
-	<record>
-		<region>Malezja</region>
-		<name>Ringgit malezyjski</name>
-		<iso4217>MYR</iso4217>
-	</record>
-	<record>
-		<region>Meksyk</region>
-		<name>Peso meksykańskie</name>
-		<iso4217>MXN</iso4217>
-	</record>
-	<record>
-		<region>Maroko</region>
-		<name>Dirham marokański</name>
-		<iso4217>MAD</iso4217>
-	</record>
-	<record>
-		<region>Namibia</region>
-		<name>Dolar namibijski</name>
-		<iso4217>NAD</iso4217>
-	</record>
-	<record>
-		<region>Nepal</region>
-		<name>Rupia nepalska</name>
-		<iso4217>NPR</iso4217>
-	</record>
-	<record>
-		<region>Turcja</region>
-		<name>Lira turecka</name>
-		<iso4217>TRY</iso4217>
-	</record>
-	<record>
-		<region>Nowa Zelandia</region>
-		<name>Dolar nowozelandzki</name>
-		<iso4217>NZD</iso4217>
-	</record>
-	<record>
-		<region>Niger</region>
-		<name>Frank CFA BCEAO</name>
-		<iso4217>XOF</iso4217>
-	</record>
-	<record>
-		<region>Nigeria</region>
-		<name>Naira nigeryjska</name>
-		<iso4217>NGN</iso4217>
-	</record>
-	<record>
-		<region>Norwegia</region>
-		<name>Korona norweska</name>
-		<iso4217>NOK</iso4217>
-	</record>
-	<record>
-		<region>Oman</region>
-		<name>Rial Omanu</name>
-		<iso4217>OMR</iso4217>
-	</record>
-	<record>
-		<region>Pakistan</region>
-		<name>Rupia pakistańska</name>
-		<iso4217>PKR</iso4217>
-	</record>
-	<record>
-		<region>Panama</region>
-		<name>Balboa panamski</name>
-		<iso4217>PAB</iso4217>
-	</record>
-	<record>
-		<region>Peru</region>
-		<name>Nowy sol peruwiański</name>
-		<iso4217>PEN</iso4217>
-	</record>
-	<record>
-		<region>Filipiny</region>
-		<name>Peso filipińskie</name>
-		<iso4217>PHP</iso4217>
-	</record>
-	<record>
-		<region>Polska</region>
-		<name>Złoty polski</name>
-		<iso4217>PLN</iso4217>
-	</record>
-	<record>
-		<region>Katar</region>
-		<name>Rial katarski</name>
-		<iso4217>QAR</iso4217>
-	</record>
-	<record>
-		<region>Rumunia</region>
-		<name>Leja rumuńska</name>
-		<iso4217>RON</iso4217>
-	</record>
-	<record>
-		<region>Rosja</region>
-		<name>Rubel rosyjski</name>
-		<iso4217>RUB</iso4217>
-	</record>
-	<record>
-		<region>Arabia Saudyjska</region>
-		<name>Rial saudyjski</name>
-		<iso4217>SAR</iso4217>
-	</record>
-	<record>
-		<region>Singapur</region>
-		<name>Dolar singapurski</name>
-		<iso4217>SGD</iso4217>
-	</record>
-	<record>
-		<region>Republika Południowej Afryki</region>
-		<name>Rand południowoafrykański</name>
-		<iso4217>ZAR</iso4217>
-	</record>
-	<record>
-		<region>Sri Lanka</region>
-		<name>Rupia lankijska</name>
-		<iso4217>LKR</iso4217>
-	</record>
-	<record>
-		<region>Szwecja</region>
-		<name>Korona szwedzka</name>
-		<iso4217>SEK</iso4217>
-	</record>
-	<record>
-		<region>Szwajcaria</region>
-		<name>Frank szwajcarski</name>
-		<iso4217>CHF</iso4217>
-	</record>
-	<record>
-		<region>Tajwan</region>
-		<name>Nowy dolar tajwański</name>
-		<iso4217>TWD</iso4217>
-	</record>
-	<record>
-		<region>Tajlandia</region>
-		<name>Baht tajski</name>
-		<iso4217>THB</iso4217>
-	</record>
-	<record>
-		<region>Ukraina</region>
-		<name>Hrywna ukraińska</name>
-		<iso4217>UAH</iso4217>
-	</record>
-	<record>
-		<region>Urugwaj</region>
-		<name>Peso urugwajskie</name>
-		<iso4217>UYU</iso4217>
-	</record>
-	<record>
-		<region>Stany Zjednoczone</region>
-		<name>Dolar amerykański</name>
-		<iso4217>USD</iso4217>
-	</record>
-	<record>
-		<region>Wenezuela</region>
-		<name>Boliwar fuerte</name>
-		<iso4217>VEF</iso4217>
-	</record>
-	<record>
-		<region>Wietnam</region>
-		<name>Dong wietnamski</name>
-		<iso4217>VND</iso4217>
-	</record>
-
 	<record>
 		<region>Aruba</region>
-		<name>Gulden arubski</name>
+		<name>Florin arubiański</name>
+		<symbol>ƒ</symbol>
+		<symbolLeading>1</symbolLeading>
 		<iso4217>AWG</iso4217>
+		<iso3166>AW</iso3166>
 	</record>
 	<record>
 		<region>Bośnia i Hercegowina</region>
-		<name>Marka konwertybilna Bośni i Hercegowiny</name>
+		<name>Marka Bośni i Hercegowiny</name>
+		<symbol>KM</symbol>
+		<symbolLeading>0</symbolLeading>
 		<iso4217>BAM</iso4217>
+		<iso3166>BA</iso3166>
+	</record>
+ 	<record>
+		<region>Barbados</region>
+		<name>Dolar barbadoski</name>
+		<symbol>Bds$</symbol>
+		<symbolLeading>1</symbolLeading>
+		<iso4217>BBD</iso4217>
+		<iso3166>BB</iso3166>
 	</record>
 	<record>
 		<region>Bangladesz</region>
-		<name>Taka bengalska</name>
+		<name>Taka bangladeska</name>
+		<symbol>৳</symbol>
+		<symbolLeading>0</symbolLeading>
 		<iso4217>BDT</iso4217>
+		<iso3166>BD</iso3166>
 	</record>
 	<record>
 		<region>Bułgaria</region>
-		<name>Lew bułgarski</name>
+		<name>Lewa bułgarska</name>
+		<symbol>лв</symbol>
+		<symbolLeading>0</symbolLeading>
 		<iso4217>BGN</iso4217>
+		<iso3166>BG</iso3166>
+	</record>
+ 	<record>
+		<region>Bahrajn</region>
+		<name>Dinar bahrajński</name>
+		<symbol>BD</symbol>
+		<iso4217>BHD</iso4217>
+		<symbolLeading>0</symbolLeading>
+		<decimalDigits>3</decimalDigits>
+		<iso3166>BH</iso3166>
 	</record>
 	<record>
 		<region>Bermudy</region>
 		<name>Dolar bermudzki</name>
+		<symbol>BD$</symbol>
+		<symbolLeading>1</symbolLeading>
 		<iso4217>BMD</iso4217>
+		<iso3166>BM</iso3166>
+	</record>
+ 	<record>
+		<region>Boliwia</region>
+		<name>Boliwiano</name>
+		<symbol>Bs</symbol>
+		<symbolLeading>1</symbolLeading>
+		<iso4217>BOB</iso4217>
+		<iso3166>BO</iso3166>
+	</record>
+	<record>
+		<region>Brazylia</region>
+		<name>Real brazylijski</name>
+		<symbol>R$</symbol>
+		<symbolLeading>1</symbolLeading>
+		<iso4217>BRL</iso4217>
+		<iso3166>BR</iso3166>
 	</record>
 	<record>
 		<region>Bahamy</region>
 		<name>Dolar bahamski</name>
+		<symbol>B$</symbol>
+		<symbolLeading>1</symbolLeading>
 		<iso4217>BSD</iso4217>
+		<iso3166>BS</iso3166>
+	</record>
+ 	<record>
+		<region>Kanada</region>
+		<name>Dolar kanadyjski</name>
+		<symbol>C$</symbol>
+		<symbolLeading>1</symbolLeading>
+		<iso4217>CAD</iso4217>
+		<iso3166>CA</iso3166>
 	</record>
 	<record>
-		<region>Fidżi</region>
-		<name>Dolar fidżi</name>
+		<region>Szwajcaria</region>
+		<name>Frank szwajcarski</name>
+		<symbol>Fr</symbol>
+		<symbolLeading>1</symbolLeading>
+		<iso4217>CHF</iso4217>
+		<iso3166>CH</iso3166>
+	</record>
+	<record>
+		<region>Chile</region>
+		<name>Peso chilijskie</name>
+		<symbol>CL$</symbol>
+		<symbolLeading>1</symbolLeading>
+		<decimalDigits>0</decimalDigits>
+		<iso4217>CLP</iso4217>
+		<iso3166>CL</iso3166>
+	</record>
+	<record>
+		<region>Chiny</region>
+		<name>Yuan chiński</name>
+		<symbol>¥</symbol>
+		<symbolLeading>1</symbolLeading>
+		<iso4217>CNY</iso4217>
+		<iso3166>CN</iso3166>
+	</record>
+	<record>
+		<region>Kolumbia</region>
+		<name>Peso kolumbijskie</name>
+		<symbol>COL$</symbol>
+		<symbolLeading>1</symbolLeading>
+		<iso4217>COP</iso4217>
+		<iso3166>CO</iso3166>
+	</record>
+	<record>
+		<region>Republika Czech</region>
+		<name>Korona czeska</name>
+		<symbol>Kč</symbol>
+		<symbolLeading>0</symbolLeading>
+		<iso4217>CZK</iso4217>
+		<iso3166>CZ</iso3166>
+	</record>
+	<record>
+		<region>Dania</region>
+		<name>Korona duńska</name>
+		<symbol>kr</symbol>
+		<symbolLeading>1</symbolLeading>
+		<iso4217>DKK</iso4217>
+		<iso3166>DK</iso3166>
+	</record>
+	<record>
+		<region>Egipt</region>
+		<name>Funt egipski</name>
+		<symbol>LE</symbol>
+		<symbolLeading>0</symbolLeading>
+		<decimalDigits>2</decimalDigits>
+		<iso4217>EGP</iso4217>
+		<iso3166>EG</iso3166>
+	</record>
+	<record>
+		<region>Strefa Euro</region>
+		<name>Euro</name>
+		<symbol>€</symbol>
+		<symbolLeading>0</symbolLeading>
+		<iso4217>EUR</iso4217>
+		<iso3166>EU</iso3166>
+	</record>
+	<record>
+		<region>Fiji</region>
+		<name>Fijian Dolar</name>
+		<symbol>FJ$</symbol>
+		<symbolLeading>1</symbolLeading>
 		<iso4217>FJD</iso4217>
+		<iso3166>FJ</iso3166>
 	</record>
 	<record>
 		<region>Ghana</region>
-		<name>Cedi Ghany</name>
+		<name>Ghanaian cedi</name>
+		<symbol>₵</symbol>
+		<symbolLeading>1</symbolLeading>
 		<iso4217>GHS</iso4217>
+		<iso3166>GH</iso3166>
 	</record>
 	<record>
 		<region>Gambia</region>
-		<name>Dalasi gambijskie</name>
+		<name>Gambian dalasi</name>
+		<symbol>D</symbol>
+		<symbolLeading>1</symbolLeading>
 		<iso4217>GMD</iso4217>
+		<iso3166>GM</iso3166>
 	</record>
 	<record>
-		<region>Gwatemala</region>
-		<name>Quetzal gwatemalski</name>
+		<region>United Kingdom</region>
+		<name>British pound sterling</name>
+		<symbol>£</symbol>
+		<symbolLeading>1</symbolLeading>
+		<iso4217>GBP</iso4217>
+		<iso3166>GB</iso3166>
+	</record>
+	<record>
+		<region>Guatemala</region>
+		<name>Guatemalan quetzal</name>
+		<symbol>Q</symbol>
+		<symbolLeading>1</symbolLeading>
 		<iso4217>GTQ</iso4217>
+		<iso3166>GT</iso3166>
+	</record>
+ 	<record>
+		<region>Hong Kong</region>
+		<name>Dolar hongkoński</name>
+		<symbol>HK$</symbol>
+		<symbolLeading>1</symbolLeading>
+		<iso4217>HKD</iso4217>
+		<iso3166>HK</iso3166>
 	</record>
 	<record>
 		<region>Chorwacja</region>
-		<name>Luna chorwacka</name>
+		<name>Kuna chorwacka</name>
+		<symbol>kn</symbol>
+		<symbolLeading>0</symbolLeading>
 		<iso4217>HRK</iso4217>
+		<iso3166>HR</iso3166>
+	</record>
+ 	<record>
+		<region>Węgry</region>
+		<name>Forint węgierski</name>
+		<symbol>Ft</symbol>
+		<symbolLeading>0</symbolLeading>
+		<iso4217>HUF</iso4217>
+		<decimalDigits>0</decimalDigits>
+		<iso3166>HU</iso3166>
+	</record>
+	<record>
+		<region>Indonesia</region>
+		<name>Rupia indonezyjska</name>
+		<symbol>Rp</symbol>
+		<symbolLeading>1</symbolLeading>
+		<iso4217>IDR</iso4217>
+		<decimalDigits>0</decimalDigits>
+		<iso3166>ID</iso3166>
+	</record>
+	<record>
+		<region>Izrael</region>
+		<name>Nowa szekla izraelska</name>
+		<symbol>₪</symbol>
+		<symbolLeading>1</symbolLeading>
+		<iso4217>ILS</iso4217>
+		<iso3166>IL</iso3166>
+	</record>
+	<record>
+		<region>Indie</region>
+		<name>Rupia indyjska</name>
+		<symbol>₹</symbol>
+		<symbolLeading>1</symbolLeading>
+		<iso4217>INR</iso4217>
+		<iso3166>IN</iso3166>
+	</record>
+	<record>
+		<region>Iclandia</region>
+		<name>Korona islandzka</name>
+		<symbol>kr</symbol>
+		<symbolLeading>0</symbolLeading>
+		<decimalDigits>0</decimalDigits>
+		<iso4217>ISK</iso4217>
+		<iso3166>IS</iso3166>
+	</record>
+	<record>
+		<region>Jamajka</region>
+		<name>Dolar jamajski</name>
+		<symbol>J$</symbol>
+		<symbolLeading>1</symbolLeading>
+		<iso4217>JMD</iso4217>
+		<iso3166>JM</iso3166>
+	</record>
+	<record>
+		<region>Jordan</region>
+		<name>Dinar jordański</name>
+		<symbol>JD</symbol>
+		<symbolLeading>0</symbolLeading>
+		<iso4217>JOD</iso4217>
+		<decimalDigits>3</decimalDigits>
+		<iso3166>JO</iso3166>
+	</record>
+	<record>
+		<region>Japonia</region>
+		<name>Jen japoński</name>
+		<symbol>¥</symbol>
+		<symbolLeading>1</symbolLeading>
+		<iso4217>JPY</iso4217>
+		<decimalDigits>0</decimalDigits>
+		<iso3166>JP</iso3166>
+	</record>
+	<record>
+		<region>Kenia</region>
+		<name>Szyling kenijski</name>
+		<symbol>Ksh</symbol>
+		<symbolLeading>1</symbolLeading>
+		<iso4217>KES</iso4217>
+		<iso3166>KE</iso3166>
 	</record>
 	<record>
 		<region>Kambodża</region>
 		<name>Riel kambodżański</name>
+		<symbol>៛</symbol>
+		<symbolLeading>1</symbolLeading>
 		<iso4217>KHR</iso4217>
+		<iso3166>KH</iso3166>
+	</record>
+ 	<record>
+		<region>Korea południowa</region>
+		<name>Won południowokoreański</name>
+		<symbol>₩</symbol>
+		<symbolLeading>1</symbolLeading>
+		<iso4217>KRW</iso4217>
+		<decimalDigits>0</decimalDigits>
+		<iso3166>KR</iso3166>
+	</record>
+	<record>
+		<region>Kuwejt</region>
+		<name>Dinar kuwejcki</name>
+		<symbol>KD</symbol>
+		<symbolLeading>0</symbolLeading>
+		<iso4217>KWD</iso4217>
+		<decimalDigits>3</decimalDigits>
+		<iso3166>KW</iso3166>
 	</record>
 	<record>
 		<region>Laos</region>
 		<name>Kip laotański</name>
+		<symbol>₭</symbol>
+		<symbolLeading>1</symbolLeading>
 		<iso4217>LAK</iso4217>
+		<iso3166>LA</iso3166>
+	</record>
+	<record>
+		<region>Liban</region>
+		<name>Funt libański</name>
+		<symbol>LB£</symbol>
+		<symbolLeading>0</symbolLeading>
+		<iso4217>LBP</iso4217>
+		<iso3166>LB</iso3166>
+	</record>
+	<record>
+		<region>Sri Lanka</region>
+		<name>Rupia srilańska</name>
+		<symbol>₨</symbol>
+		<symbolLeading>1</symbolLeading>
+		<iso4217>LKR</iso4217>
+		<iso3166>LK</iso3166>
+	</record>
+	<record>
+		<region>Litwa</region>
+		<name>Litas litewski</name>
+		<symbol>Lt</symbol>
+		<symbolLeading>0</symbolLeading>
+		<iso4217>LTL</iso4217>
+		<iso3166>LT</iso3166>
+	</record>
+	<record>
+		<region>Łotwa</region>
+		<name>Łat łotewski</name>
+		<symbol>Ls</symbol>
+		<symbolLeading>1</symbolLeading>
+		<iso4217>LVL</iso4217>
+		<iso3166>LV</iso3166>
+	</record>
+	<record>
+		<region>Moroko</region>
+		<name>Drahma marokańska</name>
+		<symbol>DH</symbol>
+		<symbolLeading>0</symbolLeading>
+		<iso4217>MAD</iso4217>
+		<iso3166>MA</iso3166>
 	</record>
 	<record>
 		<region>Mołdawia</region>
-		<name>Lej mołdawski</name>
+		<name>Lewa mołdawska</name>
+		<symbol>L</symbol>
+		<symbolLeading>0</symbolLeading>
 		<iso4217>MDL</iso4217>
+		<iso3166>MD</iso3166>
 	</record>
 	<record>
 		<region>Madagaskar</region>
-		<name>Ariar malgaski</name>
+		<name>Ariar madagaskarski</name>
+		<symbol>ƒ</symbol>
+		<symbolLeading>1</symbolLeading>
 		<iso4217>MGA</iso4217>
+		<iso3166>MG</iso3166>
 	</record>
 	<record>
 		<region>Macedonia</region>
-		<name>Denar macedoński</name>
+		<name>Dinar macedoński</name>
+		<symbol>ден</symbol>
+		<symbolLeading>0</symbolLeading>
 		<iso4217>MKD</iso4217>
+		<iso3166>MK</iso3166>
 	</record>
 	<record>
 		<region>Mauritius</region>
-		<name>Rupia Mauritius</name>
+		<name>Rupia mauritiańska</name>
+		<symbol>₨</symbol>
+		<symbolLeading>1</symbolLeading>
 		<iso4217>MUR</iso4217>
+		<iso3166>MU</iso3166>
 	</record>
 	<record>
 		<region>Malediwy</region>
-		<name>Rufiyaa malediwska</name>
+		<name>Rufja malediwska</name>
+		<symbol>Rf</symbol>
+		<symbolLeading>1</symbolLeading>
 		<iso4217>MVR</iso4217>
+		<iso3166>MV</iso3166>
+	</record>
+	<record>
+		<region>Malaysia</region>
+		<name>Malaysian ringgit</name>
+		<symbol>RM</symbol>
+		<symbolLeading>1</symbolLeading>
+		<iso4217>MYR</iso4217>
+		<iso3166>MY</iso3166>
+	</record>
+	<record>
+		<region>Meksyk</region>
+		<name>Peso meksykańskie</name>
+		<symbol>Mex$</symbol>
+		<symbolLeading>1</symbolLeading>
+		<iso4217>MXN</iso4217>
+		<iso3166>MX</iso3166>
+	</record>
+	<record>
+		<region>Namibia</region>
+		<name>Dolar namibijski</name>
+		<symbol>N$</symbol>
+		<symbolLeading>1</symbolLeading>
+		<iso4217>NAD</iso4217>
+		<iso3166>NA</iso3166>
+	</record>
+	<record>
+		<region>Nigeria</region>
+		<name>Naira nigeryjska</name>
+		<symbol>₦</symbol>
+		<symbolLeading>1</symbolLeading>
+		<iso4217>NGN</iso4217>
+		<iso3166>NG</iso3166>
+	</record>
+	<record>
+		<region>Norwegia</region>
+		<name>Korona norweska</name>
+		<symbol>kr</symbol>
+		<symbolLeading>1</symbolLeading>
+		<iso4217>NOK</iso4217>
+		<iso3166>NO</iso3166>
+	</record>
+	<record>
+		<region>Nepal</region>
+		<name>Rupja nepalska</name>
+		<symbol>₨</symbol>
+		<symbolLeading>0</symbolLeading>
+		<iso4217>NPR</iso4217>
+		<iso3166>NP</iso3166>
+	</record>
+	<record>
+		<region>Nowa Zelandia</region>
+		<name>Dolar nowozelandzki</name>
+		<symbol>NZ$</symbol>
+		<symbolLeading>1</symbolLeading>
+		<iso4217>NZD</iso4217>
+		<iso3166>NZ</iso3166>
+	</record>
+	<record>
+		<region>Oman</region>
+		<name>Rial omański</name>
+		<symbol>RO</symbol>
+		<symbolLeading>0</symbolLeading>
+		<iso4217>OMR</iso4217>
+		<iso3166>OM</iso3166>
+	</record>
+	<record>
+		<region>Panama</region>
+		<name>Balboa panamska</name>
+		<symbol>B/.</symbol>
+		<symbolLeading>1</symbolLeading>
+		<iso4217>PAB</iso4217>
+		<iso3166>PA</iso3166>
+	</record>
+	<record>
+		<region>Peru</region>
+		<name>Nuevo sol peruwiański</name>
+		<symbol>S/.</symbol>
+		<symbolLeading>1</symbolLeading>
+		<iso4217>PEN</iso4217>
+		<iso3166>PE</iso3166>
+	</record>
+	<record>
+		<region>Philipiny</region>
+		<name>Peso filipińskie</name>
+		<symbol>₱</symbol>
+		<symbolLeading>1</symbolLeading>
+		<iso4217>PHP</iso4217>
+		<iso3166>PH</iso3166>
+	</record>
+	<record>
+		<region>Pakistan</region>
+		<name>Rupja pakistańska</name>
+		<symbol>₨</symbol>
+		<symbolLeading>1</symbolLeading>
+		<iso4217>PKR</iso4217>
+		<iso3166>PK</iso3166>
+	</record>
+	<record>
+		<region>Polska</region>
+		<name>Złoty polski</name>
+		<symbol>zł</symbol>
+		<symbolLeading>0</symbolLeading>
+		<iso4217>PLN</iso4217>
+		<iso3166>PL</iso3166>
 	</record>
 	<record>
 		<region>Paragwaj</region>
 		<name>Guarani paragwajskie</name>
+		<symbol>₲</symbol>
+		<symbolLeading>1</symbolLeading>
 		<iso4217>PYG</iso4217>
+		<iso3166>PY</iso3166>
+	</record>
+ 	<record>
+		<region>Katar</region>
+		<name>Rial katarski</name>
+		<symbol>QR</symbol>
+		<symbolLeading>0</symbolLeading>
+		<iso4217>QAR</iso4217>
+		<iso3166>QA</iso3166>
+	</record>
+	<record>
+		<region>Rumunia</region>
+		<name>Lewa rumuńska</name>
+		<symbol>lei</symbol>
+		<symbolLeading>0</symbolLeading>
+		<iso4217>RON</iso4217>
+		<iso3166>RO</iso3166>
 	</record>
 	<record>
 		<region>Serbia</region>
 		<name>Dinar serbski</name>
+		<symbol>РСД</symbol>
+		<symbolLeading>0</symbolLeading>
 		<iso4217>RSD</iso4217>
+		<iso3166>RS</iso3166>
+	</record>
+ 	<record>
+		<region>Rosja</region>
+		<name>Rubel rosyjski</name>
+		<symbol>rub</symbol>
+		<symbolLeading>0</symbolLeading>
+		<iso4217>RUB</iso4217>
+		<iso3166>RU</iso3166>
+	</record>
+	<record>
+	<region>Arabia Saudyjska</region>
+		<name>Rial saudyjski</name>
+		<symbol>SR</symbol>
+		<symbolLeading>0</symbolLeading>
+		<iso4217>SAR</iso4217>
+		<iso3166>SA</iso3166>
 	</record>
 	<record>
 		<region>Seszele</region>
-		<name>Rupia seszelska</name>
+		<name>Rupja seszelska</name>
+		<symbol>SR</symbol>
+		<symbolLeading>1</symbolLeading>
 		<iso4217>SCR</iso4217>
+		<iso3166>SC</iso3166>
+	</record>
+ 	<record>
+		<region>Szwecja</region>
+		<name>Korona szwdzka</name>
+		<symbol>kr</symbol>
+		<symbolLeading>0</symbolLeading>
+		<iso4217>SEK</iso4217>
+		<iso3166>SE</iso3166>
+	</record>
+	<record>
+		<region>Singapur</region>
+		<name>Dolar singapurski</name>
+		<symbol>S$</symbol>
+		<symbolLeading>1</symbolLeading>
+		<iso4217>SGD</iso4217>
+		<iso3166>SG</iso3166>
 	</record>
 	<record>
 		<region>Syria</region>
 		<name>Funt syryjski</name>
+		<symbol>£S</symbol>
+		<symbolLeading>1</symbolLeading>
 		<iso4217>SYP</iso4217>
+		<iso3166>SY</iso3166>
+	</record>
+ 	<record>
+		<region>Tajlandia</region>
+		<name>Baht tajski</name>
+		<symbol>฿</symbol>
+		<symbolLeading>1</symbolLeading>
+		<iso4217>THB</iso4217>
+		<iso3166>TH</iso3166>
 	</record>
 	<record>
 		<region>Tunezja</region>
 		<name>Dinar tunezyjski</name>
+		<symbol>DT</symbol>
+		<symbolLeading>0</symbolLeading>
+		<decimalDigits>3</decimalDigits>
 		<iso4217>TND</iso4217>
+		<iso3166>TN</iso3166>
+	</record>
+ 	<record>
+		<region>Turcja</region>
+		<name>Lira turecka</name>
+		<symbol>TL</symbol>
+		<symbolLeading>0</symbolLeading>
+		<iso4217>TRY</iso4217>
+		<iso3166>TR</iso3166>
+	</record>
+	<record>
+		<region>Tajwan</region>
+		<name>Nowy dolar tajwański</name>
+		<symbol>NT$</symbol>
+		<symbolLeading>1</symbolLeading>
+		<iso4217>TWD</iso4217>
+		<iso3166>TW</iso3166>
+	</record>
+	<record>
+		<region>Ukraina</region>
+		<name>Hrywna ukraińska</name>
+		<symbol>₴</symbol>
+		<symbolLeading>0</symbolLeading>
+		<iso4217>UAH</iso4217>
+		<iso3166>UA</iso3166>
 	</record>
 	<record>
 		<region>Uganda</region>
 		<name>Szyling ugandyjski</name>
+		<symbol>USh</symbol>
+		<symbolLeading>1</symbolLeading>
 		<iso4217>UGX</iso4217>
+		<iso3166>UG</iso3166>
 	</record>
 	<record>
-		<region>Polinezja Francuska</region>
-		<name>Frank CFP</name>
-		<iso4217>XPF</iso4217>
+		<region>Stany Zjednoczone Ameryki</region>
+		<name>Dolar amerykański</name>
+		<symbol>US$</symbol>
+		<symbolLeading>1</symbolLeading>
+		<iso4217>USD</iso4217>
+		<iso3166>US</iso3166>
 	</record>
-</records>	
+	<record>
+		<region>Urugwaj</region>
+		<name>Peso urugwajskie</name>
+		<symbol>$U</symbol>
+		<symbolLeading>1</symbolLeading>
+		<iso4217>UYU</iso4217>
+		<iso3166>UY</iso3166>
+	</record>
+	<record>
+		<region>Wenezuela</region>
+		<name>Bolívar wenezuelski</name>
+		<symbol>BsF</symbol>
+		<symbolLeading>1</symbolLeading>
+		<iso4217>VEF</iso4217>
+		<iso3166>VE</iso3166>
+	</record>
+	<record>
+		<region>Wietnam</region>
+		<name>Dong wietnamski</name>
+		<symbol>₫</symbol>
+		<symbolLeading>0</symbolLeading>
+		<decimalDigits>0</decimalDigits>
+		<iso4217>VND</iso4217>
+		<iso3166>VN</iso3166>
+	</record>
+	<record>
+		<region>Kamerun</region>
+		<name>Frank CFA BEAC</name>
+		<symbol>FCFA</symbol>
+		<symbolLeading>0</symbolLeading>
+		<iso4217>XAF</iso4217>
+		<iso3166>CM</iso3166>
+	</record>
+	<record>
+		<region>Antyle i Bermudy</region>
+		<name>Dolar wschodniokaraibski</name>
+		<symbol>EC$</symbol>
+		<symbolLeading>1</symbolLeading>
+		<iso4217>XCD</iso4217>
+		<iso3166>AG</iso3166>
+	</record>
+	<record>
+		<region>Niger</region>
+		<name>Frank CFA BCEAO</name>
+		<symbol>CFA</symbol>
+		<symbolLeading>0</symbolLeading>
+		<iso4217>XOF</iso4217>
+		<iso3166>NE</iso3166>
+	</record>
+	<record>
+		<region>Polinezja francuska</region>
+		<name>Frank CFP</name>
+		<symbol>F</symbol>
+		<symbolLeading>1</symbolLeading>
+		<iso4217>XPF</iso4217>
+		<iso3166>PF</iso3166>
+	</record>
+ 	<record>
+		<region>Republika Południowej Afryki</region>
+		<name>Rand południowoafrykański</name>
+		<symbol>R</symbol>
+		<symbolLeading>1</symbolLeading>
+		<iso4217>ZAR</iso4217>
+		<iso3166>ZA</iso3166>
+	</record>
+</records>
+	

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="en">
 	<string name="transactions">Transakcje</string>
-	<string name="view_transactions">Zobacz transakcję</string>
+	<string name="view_transactions">Zobacz transakcje</string>
 	<string name="new_transaction">Nowa transakcja</string>
 	<string name="edit_transaction">Edytuj transakcję</string>
 	<string name="split_transaction">Podziel transakcję</string>
@@ -16,16 +16,16 @@
 	<string name="marked">Zaznaczona</string>
 	<string name="mark_canceled">Zaznaczanie anuloawne</string>
 	<string name="mark_transaction">Zaznacz transakcję</string>
-<!-- New Fix plurals -->	<string-array name="mark_transactions_format_plurals">
+	<string-array name="mark_transactions_format_plurals">
 		<item/> <!-- Intentionally left empty -->
 		<item>Zaznacz ^1 transakcje</item>
-		<item>Zaznacz ^1 transakcje</item>
+		<item/> <!-- Not used -->
 	</string-array>
 	<string name="mark_transactions_all">Zaznacz <b>wszystkie</b> transakcje</string>
 	<string name="unreconciled1">Niezgodny</string>
 	<string name="unreconciled2">@string/unreconciled1</string>
 	<string name="cleared1">Wyczyszczony</string>
-	<string name="cleared2">@string/cleared1</string>
+	<string name="cleared2">@string/wyczyszczone1</string>
 	<string name="reconciled1">Zgodny</string>
 	<string name="reconciled2">@string/reconciled1</string>
 	<string name="_void_verb">Wstrzymanie</string>
@@ -40,7 +40,7 @@
 	<string name="notes_edited">Notatki wyedytowane</string>
 	<string name="notes_deleted">Notatki usunięte</string>
 	<string name="notes_creation_canceled">Tworzenie notatatek anulowane</string>
-	<string name="flag_for_follow_up">Oflaguj by śledzić</string>
+	<string name="flag_for_follow_up">Oflaguj do kontroli</string>
 	<string name="edit_follow_up">Edytuj śledzenie</string>
 	<string name="make_recurring">Zrób powtarzalną</string>
 	<string name="follow_up2">Śledź</string>
@@ -48,7 +48,7 @@
 	<string name="follow_up_created">Śledzenie utworzone</string>
 	<string name="follow_up_edited">Śledzenie wyedytowane</string>
 	<string name="follow_up_deleted">Śledzenie usunięte</string>
-	<string name="follow_up_creation_canceled">Śledzenie creation cancelled</string>
+	<string name="follow_up_creation_canceled">Tworzenie uzupełniające anulowane</string>
 	<string name="go_to">Idź do</string> <!-- Used on the menu to display a submenu where you can select an account/category to view -->
 	<string name="number">Liczba</string>
 	<string name="transfer">Transfer</string>
@@ -164,22 +164,22 @@
 		<item>depozyt</item>
 	</string-array>
 
-<!-- New Fix plurals -->	<string-array name="delete_transaction_warning_format_plurals">
+	<string-array name="delete_transaction_warning_format_plurals">
 		<item/> <!-- Intentionally left empty -->
 		<item>^1 zaznaczone transakcje zostaną usunięte</item>
-		<item>^1 zaznaczone transakcje zostaną usunięte</item>
+		<item/> <!-- Not used -->
 	</string-array>
 	<string name="delete_transaction_warning_all"><b>Wszystkie</b> transkacje zostaną usunięte</string>
 	<string name="delete_transaction_warning_reconciled">Zgodne transakcje zostaną usunięte</string>
-<!-- New Fix plurals -->	<string-array name="delete_transaction_warning_reconciled_format_plurals">
+	<string-array name="delete_transaction_warning_reconciled_format_plurals">
 		<item/> <!-- Intentionally left empty -->
 		<item>^1 zaznaczone transkacje zostaną usunięte, z których przynajmniej jedna jest zgodna</item>
-		<item>^1 zaznaczone transkacje zostaną usunięte, z których przynajmniej jedna jest zgodna</item>
+		<item/> <!-- Not used -->
 	</string-array>
 	<string name="accept_transaction_confirm_singular">Transakcje zostaną zaakceptowane</string>
-<!-- New Fix plurals -->	<string-array name="accept_transaction_confirm_format_plurals">
+	<string-array name="accept_transaction_confirm_format_plurals">
 		<item/> <!-- Intentionally left empty -->
 		<item>^1 zaznaczone transkacje zostaną zaakceptoawne</item>
-		<item>^1 zaznaczone transkacje zostaną zaakceptoawne</item>
+		<item/> <!-- Not used -->
 	</string-array>
 </resources>

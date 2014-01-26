@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
+	<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="pl">
 	<string name="two_part_format_normal_width">^1 ^2</string>
 	<string name="two_part_format_full_width">^1 ^2</string>
 	<string name="sentence_end_period_format">^1.</string>
@@ -18,13 +18,14 @@
 	<string name="plus_before_format">+ ^1</string>
 	<string name="equals_format">^1 =</string>
 	<string name="footnote_symbol">*</string>
-	<string name="ellipsis_start_format">…^1</string>
-<!-- New --> <string name="quarter_format">Q^1 ^2</string> <!-- "Q1 2013" -->
-<!-- New --> <string name="filter_by_order_format">^1 by ^2</string> <!-- Example: "All accounts by name" -->
-<!-- New --> <string name="filter_by_direction_order_format">^1 by ^2 ^3</string> <!-- Example: "All payees by decreasing date" -->
-<!-- New --> <string name="filter_for_item_by_direction_order_for_date_range_format">^1 by ^2 ^3 for ^4</string> <!-- Example: "All transactions by decreasing date for all dates" -->
+	<string name="quarter_format">Q^1 ^2</string> <!-- "Q1 2013" -->
+	<string name="filter_by_order_format">^1 przez ^2</string> <!-- Example: "All accounts by name" -->
+	<string name="filter_by_direction_order_format">^1 przez ^2 ^3</string> <!-- Example: "All payees by decreasing date" -->
+	<string name="filter_for_item_by_direction_order_for_date_range_format">^1 przez ^2 ^3 dla ^4</string> <!-- Example: "All transactions by decreasing date for all dates" -->
 	<string name="_continue">Kontynuuj</string>
 	<string name="continue_question">Kontynuacja</string> <!-- This is a question, but the question mark will be added progrmatically -->
+	<string name="home">Ekran główny</string> <!-- Home screen -->
+	<string name="home_screen">Ekran startowy</string>
 	<string name="previous">Poprzedni</string>
 	<string name="next">Następny</string>
 	<string name="_import">Import</string> <!-- This is a verb -->
@@ -108,7 +109,7 @@
 	<string name="please_rate_app_format">Poświęć chwilę, by ocenić ^1</string> <!-- ^1 is app name -->
 	<string name="later_rate_description">Zostanie Ci przypomniane po około tygodniu</string>
 	<string name="no_rate_description_format">Możesz to zawsze zrobić z ^1 ekranu</string> <!-- ^1 is "Settings" -->
-	<string name="task_killer_warning_format">Ostrzeżenie o procesie „task killer” apps:\n\nTwoje urządzenie uruchomi się raz dziennie by przeprowadzić procesy automatyczne. Jako, że proces ten trwa jedynie kilka sekund, nie będzie miał on szkodliwego wpływu na żywotność baterii.\n\n Task killers mogą nie pozwolić procesowi w tle na poprawne działanie i nie powinny być z nim używane ^1</string> <!-- ^1 is app name -->
+	<string name="task_killer_warning_format">Ostrzeżenie o procesie “task killer” apps:\n\n Twoje urządzenie uruchomi się raz dziennie by przeprowadzić procesy automatyczne. Jako, że proces ten trwa jedynie kilka sekund, nie będzie miał on szkodliwego wpływu na żywotność baterii.\n\n Task killers mogą nie pozwolić procesowi w tle na poprawne działanie i nie powinny być z nim używane ^1</string> <!-- ^1 is app name -->
 	<string name="no_thanks">Dziękuję, nie</string>
 	<string name="maybe_later">Może później</string>
 	<string name="unexpected_error_warning"> Pojawił się niespodziewany błąd, zmuszając aplikację do zatrzymania się.\n\nPomóż nam, proszę, naproawić ten błąd poprzez wysłanie e-maila z raportem. Będziesz mieć szansę na edycję wiadomości zanim zostanie wysłana.\n\n Dziękujemy za współpracę.</string>
@@ -119,11 +120,6 @@
 	<string name="archiving">Archiwizacja</string>
 	<string name="archiving_settings">Ustawienia archiwizacji</string>
 	<string name="more">Więcej</string>
-<!-- New --> <string-array name="more_plurals"> <!-- As in "X more item(s)" -->
-		<item>^1 more</item>
-		<item>^1 more</item>
-		<item>^1 more</item>
-	</string-array>
 	<string name="specify_options">Dookreśl opcje</string>
 	<string name="expand_all">Rozwiń wszytkie</string>
 	<string name="all_expanded">Wszystkie rozwinięto</string>
@@ -152,10 +148,10 @@
 
 	<string name="no_items">Brak rzeczy</string>
 	<string name="no_items_yet">Brak jeszcze rzeczy</string>
-<!-- New Fix plurals --> <string-array name="items_format_plurals">
-		<item/> <!-- Intentionally left empty -->
+	<string-array name="items_format_plurals"> <!-- Please contact us if you are unsure about the plurals -->
+		<item/> <!-- Not used -->
 		<item>^1 rzecz</item>
-		<item>^1 rzecz</item>
+		<item/> <!-- Not used -->
 	</string-array>
 
 	<string-array name="reminder_leads">
@@ -167,38 +163,38 @@
 		<item>Dwa tygodnie wcześniej</item>
 	</string-array>
 
-<!-- New fix all lines below -->	<string-array name="nth_day_of_the_month">
-		<item>1st</item>
-		<item>2nd</item>
-		<item>3rd</item>
-		<item>4th</item>
-		<item>5th</item>
-		<item>6th</item>
-		<item>7th</item>
-		<item>8th</item>
-		<item>9th</item>
-		<item>10th</item>
-		<item>11th</item>
-		<item>12th</item>
-		<item>13th</item>
-		<item>14th</item>
-		<item>15th</item>
-		<item>16th</item>
-		<item>17th</item>
-		<item>18th</item>
-		<item>19th</item>
-		<item>20th</item>
-		<item>21st</item>
-		<item>22nd</item>
-		<item>23rd</item>
-		<item>24th</item>
-		<item>25th</item>
-		<item>26th</item>
-		<item>27th</item>
-		<item>28th</item>
-		<item>29th</item>
-		<item>30th</item>
-		<item>31st</item>
+	<string-array name="nth_day_of_the_month">
+		<item>1-szy</item>
+		<item>2-gi</item>
+		<item>3-ci</item>
+		<item>4-ty</item>
+		<item>5-ty</item>
+		<item>6-ty</item>
+		<item>7-my</item>
+		<item>8-my</item>
+		<item>9-ty</item>
+		<item>10-ty</item>
+		<item>11-ty</item>
+		<item>12-ty</item>
+		<item>13-ty</item>
+		<item>14-ty</item>
+		<item>15-ty</item>
+		<item>16-ty</item>
+		<item>17-ty</item>
+		<item>18-ty</item>
+		<item>19-ty</item>
+		<item>20-ty</item>
+		<item>21-szy</item>
+		<item>22-gi</item>
+		<item>23-ci</item>
+		<item>24-ty</item>
+		<item>25-ty</item>
+		<item>26-ty</item>
+		<item>27-my</item>
+		<item>28-my</item>
+		<item>29-ty</item>
+		<item>30-ty</item>
+		<item>31-szy</item>
 	</string-array>
 
 	<string name="display_direction">Kierunek wyświetlania</string>

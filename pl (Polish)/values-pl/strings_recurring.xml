@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="pl">
 
 	<string name="estimated_indicator">~</string>
 	<string name="recurring_bills_and_deposits">Powtarzające się rachunki &amp; depozyty</string>
 	<string name="recurring_bills_and_deposits_short">@string/recurring_bills_and_deposits</string>
 	<string name="recurring_bills_and_deposits_by_direction_order_format">Rachunki &amp; depozyty według ^1 ^2</string> <!-- Example: "Bills & deposits by decreasing date" -->	
+	<string name="view_recurring">Zobacz powtarzalność</string>
 	<string name="new_recurring">Nowa powtarzalność</string>
 	<string name="enter">Wprowadź</string>
 	<string name="entered">Wprowadzone</string>
@@ -27,10 +28,10 @@
 	<string name="skip">Pomiń</string>
 	<string name="skip_occurrence">Pomiń zdarzenie</string>
 	<string name="skipped">Pominięto</string>
-<!-- New Fix plurals -->	<string-array name="skipped_occurrences_format_plurals">
-		<item/> <!-- Intentionally left empty -->
+	<string-array name="skipped_occurrences_format_plurals">
+		<item/> <!-- Not used -->
 		<item>Pominięto ^1 zdarzenia</item>
-		<item>Pominięto ^1 zdarzenia</item>
+		<item/> <!-- Not used -->
 	</string-array>
 	<string name="skip_canceled">Pomijanie anulowane</string>
 	<string name="skip_which">Które pominąć</string> <!-- This is a question, but the question mark will be added progrmatically -->
@@ -58,7 +59,7 @@
 	<string name="cannot_auto_enter">Ze względu na prawdopodobne wahania kursów wymiany, powtarzające się rachunki lub depozyty, które zawierają transery pomiędzy kontami z różną walutą nie będą wprowadana do rejestru automatycznie.\n\nBędziesz musiał wprowadzić te transakcje ręcznie i określić dokładną stopę wymiany w tym czasie</string>
 	<string name="entered_recurring_bill">wprowadzono powtarzające się rachunki</string>
 	<string name="entered_recurring_deposit">Wprowadzono powtarzające się depozyty</string>
-	<string name="notify_me_when_entered">Powiadom mnie w „Pasku powiadomień” gdy wprowadzona</string>
+	<string name="notify_me_when_entered">Powiadom mnie w "Pasku powiadomień" gdy wprowadzona</string>
 	<string name="the_last_day_of_the_month">Ostatni dzień miesiąca</string>
 	<string name="include_in_budget">Zawrzyj w budżecie</string>
 	<string name="include_recurrings">Zawrzyj powtarzające się elementy</string> <!-- as in "Include recurring items on report" -->
@@ -68,15 +69,15 @@
 	<!-- These three below form a sentence -->
 	<string name="based_part1">Oparte o</string>
 	<string name="based_part2_singular">oststnia</string>
-<!-- New Fix plurals -->	<string-array name="based_part2_plurals">
+	<string-array name="based_part2_plurals">
 		<item/> <!-- Intentionally left empty -->
 		<item>ostatnia ^1</item>
-		<item>ostatnia ^1</item>
+		<item/> <!-- Not used -->
 	</string-array>
-<!-- New Fix plurals -->	<string-array name="based_part3_plurals">
+	<string-array name="based_part3_plurals">
 		<item>zdarzenie</item>
 		<item>zdarzenia</item>
-		<item>zdarzenia</item>
+		<item/> <!-- Not used -->
 	</string-array>
 	<string name="upcoming_date">nadchodząca data</string> <!-- As in the "the date of the upcoming recurring instance" --> 
 	<string name="series_start_date">Data początkowa serii</string> <!-- As in the "the starting date of the entire recurring series" -->
@@ -87,24 +88,24 @@
 	<string name="every_2"/> <!-- Intentionally left empty -->
 	<string name="every_3"/> <!-- Intentionally left empty -->
 	<string-array name="every_day_plurals">
-		<item>@string/every_1</item>
-		<item>@string/every_1</item>
-		<item>@string/every_1</item>
+		<item>@string/każdy_1</item>
+		<item>@string/każdy_1</item>
+		<item/> <!-- Not used -->
 	</string-array>
 	<string-array name="every_week_plurals">
-		<item>@string/every_1</item>
-		<item>@string/every_1</item>
-		<item>@string/every_1</item>
+		<item>@string/każdy_1</item>
+		<item>@string/każdy_1</item>
+		<item/> <!-- Not used -->
 	</string-array>
 	<string-array name="every_month_plurals">
-		<item>@string/every_1</item>
-		<item>@string/every_1</item>
-		<item>@string/every_1</item>
+		<item>@string/każdy_1</item>
+		<item>@string/każdy_1</item>
+		<item/> <!-- Not used -->
 	</string-array>
 	<string-array name="every_year_plurals">
-		<item>@string/every_1</item>
-		<item>@string/every_1</item>
-		<item>@string/every_1</item>
+		<item>@string/każdy_1</item>
+		<item>@string/każdy_1</item>
+		<item/> <!-- Not used -->
 	</string-array>
 	<string name="never">Nigdy</string>
 	<string name="day_upper">Dzień</string>
@@ -130,51 +131,51 @@
 	<string name="year_lower">rok</string>
 	<string name="years_upper">Lata</string>
 	<string name="yearly">Rocznie</string>
-<!-- New Fix plurals -->	<string-array name="day_plurals">
-		<item>@string/day_lower</item>
+	<string-array name="day_plurals">
+		<item>@string/dzień_niżej</item>
 		<item>dni</item>
-		<item>dni</item>
+		<item/> <!-- Not used -->
 	</string-array>
-<!-- New Fix plurals -->	<string-array name="week_plurals">
+	<string-array name="week_plurals">
 		<item>tydzień</item>
 		<item>tygodnie</item>
-		<item>tygodnie</item>
+		<item/> <!-- Not used -->
 	</string-array>
-<!-- New Fix plurals -->	<string-array name="month_plurals">
-		<item>@string/month_lower</item>
+	<string-array name="month_plurals">
+		<item>@string/miesiąc_niżej</item>
 		<item>miesiące</item>
-		<item>miesiące</item>
+		<item/> <!-- Not used -->
 	</string-array>
-<!-- New Fix plurals -->	<string-array name="year_plurals">
-		<item>@string/year_lower</item>
+	<string-array name="year_plurals">
+		<item>@string/rok_niżej</item>
 		<item>lata</item>
-		<item>lata</item>
+		<item/> <!-- Not used -->
 	</string-array>
 	<string name="every_n_period_format">^1 ^2 ^3</string> <!-- ^1: Every ^2: number ^3: days/months/weeks/years -->
 	<string name="if_it_falls_on_a_weekend">Jeśli data wypadnie w weekend</string>
 	<string name="skip_weekends">Pomiń tygodnie</string>
 	
 	<string name="overdue_count_format">^1/^2</string>
-<!-- New Fix plurals -->	<string-array name="overdue_plurals">
+	<string-array name="overdue_plurals">
 		<item>^1 przeterminowane</item>
 		<item>^1 przeterminowane</item>
-		<item>^1 przeterminowane</item>
+		<item/> <!-- Not used -->
 	</string-array>
-<!-- New Fix plurals -->	<string-array name="overdue_count_plurals">
+	<string-array name="overdue_count_plurals">
 		<item>^1 przeterminowany rachunek albo depozyt</item>
 		<item>^1 przeterminowane rachunki albo depozyty</item>
-		<item>^1 przeterminowane rachunki albo depozyty</item>
+		<item/> <!-- Not used -->
 	</string-array>
 
 	<string-array name="enter_into_register_fixed_amount_items">
-		<item>@string/enter_now</item>
+		<item>@string/wprowadź_teraz</item>
 		<item>najpierw edytuj transakcję</item>
 	</string-array>
 	<string name="use_todays_date_for_transaction_date">Użyj dzisiejszej daty dla transakcji</string>
-<!-- New Fix plurals -->	<string-array name="enter_warning_format_plurals">
+	<string-array name="enter_warning_format_plurals">
 		<item/> <!-- Intentionally left empty -->
 		<item>^1 zaznaczone powtarzające się elementy bedą wprowadzone</item>
-		<item>^1 zaznaczone powtarzające się elementy bedą wprowadzone</item>
+		<item/> <!-- Not used -->
 	</string-array>
 	
 	<string-array name="skip_which_items">
@@ -273,11 +274,11 @@
 	</string-array>
 	<string name="on_the_last_day_of_the_week_format">Ostatniego ^1</string>
 
-<!-- New -->	<string name="work_week">Work week</string>
+	<string name="work_week">Work week</string>
 	<string name="period_end_day_of_the_month">Dzień kończący okres w miesiącu</string>
 	<string name="fiscal_year">Rok obrachunkowy</string>
 	
-	<string name="time_of_reminder">Czas przypomnienia</string>
+	<string name="time_of_reminder">Termin przypomnienia</string>
 	<string name="reminder_hour_of_day_change_warning">Zauważ, że istniejące przypomnienia (jeśli są jakieś), będą <b>not</b> Zmodyfikowane. By to zrobić idź, proszę, do kalendarza w Twoim urządzeniu i edytuj tam przypomnienie.\n\nNowy czas będzie użyty dla każdego nowego przypomnienia, jak również dla nadchodzących przykładów lub istniejących, powtarzających się rachunków i depozytów.</string>
 
 	<string-array name="auto_enter_days_before">
@@ -292,16 +293,16 @@
 		<item>Miesiąc przed terminem zwrotu</item>
 	</string-array>	
 	
-<!-- New Fix plurals -->	<string-array name="days_before_plurals">
-		<item/> <!-- Intentionally left empty -->
+	<string-array name="days_before_plurals">
+		<item/> <!-- Intenionally left empty -->
 		<item>^1 dzień przed</item>
-		<item>^1 dzień przed</item>
+		<item/> <!-- Not used -->
 	</string-array>
 	
-<!-- New Fix plurals -->	<string-array name="days_before_due_date_plurals">
-		<item/> <!-- Intentionally left empty -->
+	<string-array name="days_before_due_date_plurals">
+		<item/> <!-- Intenionally left empty -->
 		<item>^1 ddzień przed terminem zwrotu</item>
-		<item>^1 ddzień przed terminem zwrotu</item>
+		<item/> <!-- Not used -->
 	</string-array>
 	
 	<string name="specify_custom_number_of_days">Ustal własną liczbę dni</string>

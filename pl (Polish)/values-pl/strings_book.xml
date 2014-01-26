@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
-	<string name="book">Książka</string>
-	<string name="new_book">Nowa książka</string>
-	<string name="new_book_name">Nazwa nowej książki</string>
-	<string name="rename_book">Zmień nazwę książki</string>
-	<string name="delete_book">Wykasuj książkę</string>
-	<string name="share_book">Udostępnij książkę</string>
-	<string name="book_delete_warning_short_format">Książka ^1 zostanie wykasowana</string>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="en">
+	<string name="book">Księga</string>
+	<string name="new_book">Nowa Księga</string>
+	<string name="new_book_name">Nazwa nowej księgi</string>
+	<string name="rename_book">Zmień nazwę księgi</string>
+	<string name="delete_book">Wykasuj księgę</string>
+	<string name="share_book">Udostępnij księgę</string>
+	<string name="book_delete_warning_short_format">Księga ^1 zostanie wykasowana</string>
 	<string name="all_data_will_be_lost">Wszystkie dane w tej książce będą bezpowrotnie utracone, jeśli nie zostaną zachowane</string>
-	<string name="import_into_book">Importuj do książki</string>
-	<string name="export_from_book">Exportuj z książki</string>
-	<string name="import_into_book_format">Importuj do książki ^1</string>
+	<string name="import_into_book">Importuj do księgi</string>
+	<string name="export_from_book">Exportuj z księgi</string>
+	<string name="import_into_book_format">Importuj do księgi ^1</string>
 	<string name="no_books">Nie masz żadnych książek</string>
-	<string name="upgrading_book">Modernizowanie książki</string>
+	<string name="upgrading_book">Modernizowanie księgi</string>
 	<string name="upgrading_books">Modernizowanie książek</string>
 	<string name="backup">Kopia zapasowa</string> <!-- Verb -->
 	<string name="backup_canceled">Kopia zapasowa znulowana</string>
-	<string name="backup_book">Kopia zapasowa książki</string>
+	<string name="backup_book">Kopia zapasowa księgi</string>
 	<string name="overwrite">Nadpisz</string>
 	<string name="backup_name">Kopia zapasowa nazwy</string>
 	<string name="auto_backup_name_format">^1 (^2 Automatycznie)</string>
 	<string name="restore">Przywróć</string>
 	<string name="restored">Przywrócone</string>
 	<string name="restore_canceled">Przywracanie znulowane</string>
-	<string name="restore_book">Przywróć książkę</string>
-	<string name="restore_warning_format">Książka ^1 zostanie nadpisana i <b>wszystkie</b> jej dane zostaną nieodwracalnie zniszczone</string>
+	<string name="restore_book">Przywróć księgę</string>
+	<string name="restore_warning_format">Księga ^1 zostanie nadpisana i <b>wszystkie</b> jej dane zostaną nieodwracalnie zniszczone</string>
 	<string name="select_backup_file_to_restore">Zaznacz plik kopii zapasowej do odtworzenia</string>
 	<string name="select_backup_file_to_create_from">Wybierz plik kopii zapasowej do otworzenia</string>
 	<string name="import_statement">Importuj potwierdzenie</string> <!-- Import is a verb as in "import a statement" -->
@@ -32,15 +32,15 @@
 	<string name="select_files">Zaznacz pliki</string>
 	<string name="delete_file">Usuń pliki</string>
 	<string name="delete_file_warning_format">Plik ^1 zostanie usunięty</string>
-<!-- New Fix plurals -->	<string-array name="delete_files_warning_format_plurals">
+	<string-array name="delete_files_warning_format_plurals">
 		<item/> <!-- Intentionally left empty -->
 		<item>^1 zaznaczone pliki zostaną usunięte</item>
-		<item>^1 zaznaczone pliki zostaną usunięte</item>
+		<item/> <!-- Not used -->
 	</string-array>
-	<string name="select_book">Zaznacz książkę</string>
+	<string name="select_book">Zaznacz księgę</string>
 	<string name="select_import_file">Zaznacz plik(i) do zaimportowania</string>
 	<string name="not_specified_brackets">&lt;Nie określone></string>
-	<string name="map_accounts">Mapa kont</string>
+	<string name="map_accounts">Sporządź mapę kont</string>
 	<string name="configure_account_mappings">Skonfiguruj mapowanie kont</string>
 	<string name="account_required">Konto wymagane</string>
 	<string name="duplicate_name">Zduplikuj nazwę</string>
@@ -82,39 +82,39 @@
 	<string name="edit_password">Edytuj hasło</string>
 	<string name="remove_password">Usuń hasło</string>
 	<string name="password_removed">Hasło usunięte</string>
-	<string name="remove_password_message">Hasło zostanie usunięte.\n\nTwoje dane będą widoczne dla każdego, kto ma dostęp do twojego urządzenia</string>
+	<string name="remove_password_message">Hasło zostanie usunięte.\n\nTwoje dane będą widoczne dla każdego, kto ma dostęp do Twojego urządzenia</string>
 	<string name="password_has_not_been_changed">Hasło nie zostało zmienione</string>
 	<string name="passwords_dont_match">Hasło nie pasuje</string>
 	<string name="case_sensitive">rozróżnia wielkie i małe litery</string>
-	<string name="disclaimer">Wyłączenie odpoweidzialności</string>
-	<string name="password_disclaimer">Przeczytaj, proszę, to „Zrzeczenie się odpowiedzialności” i zaznacz na końcu kwadrat.\n\nWeź pod uwagę, że hasło zostało zaprojektowane, jako sposób na zachowanie prywatności.Ze względu na ograniczenia platformy rzeczywsite szyfrowanie nie jest możliwe i ktoś z zaawansowanymi umiejętnościami może uzyskać dostęp do Twoich danych nawet wtedy, gdy ustawione jest hasło.\n\nJest wysoce wskazane, byś chronił swoje urządzenie za pomocą wzoru zamykającego lub numeru PIN dla dodatkowej ochrony.</string>
+	<string name="disclaimer">Wyłączenie odpowiedzialności</string>
+	<string name="password_disclaimer">Przeczytaj, proszę, to "Zrzeczenie się odpowiedzialności" i zaznacz na końcu kwadrat.\n\nWeź pod uwagę, że hasło zostało zaprojektowane, jako sposób na zachowanie prywatności.Ze względu na ograniczenia platformy rzeczywsite szyfrowanie nie jest możliwe i ktoś z zaawansowanymi umiejętnościami może uzyskać dostęp do Twoich danych nawet wtedy, gdy ustawione jest hasło.\n\nJest wysoce wskazane, byś chronił swoje urządzenie za pomocą wzoru zamykającego lub numeru PIN dla dodatkowej ochrony.</string>
 	<string name="i_understand_the_limitations">Zrozumiałem te ograniczenia</string>
 	<string name="set_password_now_part1">Ustaw teraz hasło</string> <!-- This is a question, but the question mark will be added progrmatically -->
 	<string name="set_password_now_part2_format">Nawet, jeśli odpowiesz ^1, będziesz zawsze miał możliwość ustawienia hasła poprzez wybranie ^2 z menu na górze ekranu</string>
 	<string name="folder_name_format">Nazwa katalogu (użyj ^1 dla podkatalogów)</string>
 	<string name="no_backup_files">Nie znaleziono żadnych plików kopii zapasowej</string>
-	<string name="no_backup_files_new_instructions">Jeśli próbujesz utworzyć książkę za pomocą importowanego pliku, stwórz ją najpierw od podstaw, a nastepnie zaimportuj do niej</string>
+	<string name="no_backup_files_new_instructions">Jeśli próbujesz utworzyć księgę za pomocą importowanego pliku, stwórz ją najpierw od podstaw, a nastepnie zaimportuj do niej</string>
 	<string name="remove_transactions">Usuń transakcje starsze, niż poniższa data</string>
-	<string name="book_to_make_copy_of">Książka, z której chcesz zrobić kopię</string>
-	<string name="truncate_warning_format">Wszystkie transakcje do ^1 zostaną nieodwracalnie zniszczone</string>
+	<string name="book_to_make_copy_of">Księga, z której chcesz zrobić kopię</string>
+	<string name="truncate_warning_format">Wszystkie transakcje do ^1 zostaną nieodwracalnie usunięte</string>
 	<string name="information_and_help">Informacja &amp; pomoc</string>
 	<string name="discussion_forum">Forum dyskusyjne</string>
-	<string name="join_the_user_community_format">Dołącz do ^1 users’ społeczności</string>
+	<string name="join_the_user_community_format">Dołącz do ^1 społeczności użytkowników</string>
 	<string name="contact_us">Skontaktuj się z nami</string>
 	<string name="email_the_developers">Napisz do twórcow bezpośrednio</string>
 	<string name="tap_to_display_import_settings_format">Stuknięcie ^1 wyświetli ekran ustawień importu</string>
 	<string name="verify_import_settings">Zweryfikuj, proszę, czy wybrane wartości domyślne są rzeczywiście poprawne dla pliku, który importujesz. Jesli wszystko wygląda dobrze, naciśnij strzełkę <b>Wstecz</b>  by kontynuować proces importu</string>
 	<string name="change_settings_instructions_format">Wiadomość ta nie pojawi się dla dalszych importów, ale możesz zawsze zmienić ustawienia poprzez stuknięcie ^i na górze ekranu</string> <!-- ^i will be replaced by an image -->
 	<string name="bad_import_settings">Następujące ustawienia (s) wydają się być niepoprawne dla pliku,który starasz się importować.</string>
-	<string name="qif_csv_encoding_explanation_format">Zazwyczaj ^1 powinien być użyty dla języków z listy poniżej, ale niektóre instytucje finansowe mogą utworzyć pliki, gdzie ^2 musi być dla nich zaznaczony, ażeby został zaimportowany prawidłowo.\n\nDla wszystkich pozostałych języków, NIE znajdujących się na liście, ^2 powinien być zawsze wybrany</string>
-	<string name="credits_legal">Uznanie &amp; aspekty prawne</string>
+	<string name="qif_csv_encoding_explanation_format">Zazwyczaj ^1 powinien być użyty dla języków z listy poniżej, ale niektóre instytucje finansowe mogą utworzyć pliki, gdzie ^2 musi być dla nich zaznaczony, ażeby został zaimportowany prawidłowo.\n\nDla wszystkich pozostałych języków NIE znajdujących się na liście, ^2 powinien być zawsze wybrany</string>
+	<string name="credits_legal">Uznania &amp; aspekty prawne</string>
 	<string name="contact_and_social">Kontakt &amp; media społecznościowe</string>
 	<string name="follow_us">Śledź nas</string>
 	<string name="add_us_to_circle">Dodaj nas do swoich kręgów i daj nam +1</string>
 	<string name="become_a_fan">Zostań fanem</string>
 	<string name="haptic_feedback">Opninia bezdotykowa</string>
 	<string name="haptic_feedback_description">Jeśli jest zaznaczone, wibruj kiedy stukane są przyciski</string>
-	<string name="default_book_name">Moja książka</string>
+	<string name="default_book_name">Moja Księga</string>
 	<string name="color_theme">Kolor motywu</string>
 	<string name="dark">Ciemny</string> <!-- As in "dark color theme" -->
 	<string name="light">Jansy</string> <!-- As in "opposite of dark" -->
@@ -123,7 +123,7 @@
 	<string-array name="book_new_source">
 		<item>Utwórz od podstaw</item>
 		<item>Utwórz z kopii zapasowej</item>
-		<item>Skopiuj z istniejącej książki</item>
+		<item>Skopiuj z istniejącej księgi</item>
 	</string-array>
 
 	<string-array name="book_new_source_descriptions">
@@ -139,7 +139,7 @@
 
 	<string-array name="import_mode_description">
 		<item>Uzyte dla sprawozdań pobranych z różnych instytucji finansowych, takie jak sprawozdania miesięczne z American Express. Obydwa <b>QIF</b> i <b>OFX/QFX/OFS</b> formaty są wspomagane. Importowany plik(i) nie mogą zawierać transferów pomiędzy kontami</item>
-<!-- New --> <item>Used for transferring data from another personal finance software, such as Microsoft® Money or Quicken®. Only the <b>QIF</b> format is supported</item>
+		<item>Używane do przenoszenia danych z innych programów zarządzania finansami osobistymi, takimi jak Microsoft® Money lub Quicken®. Wyłącznie format <b>QIF</b> jest wspomagany</item>
 	</string-array>
 
 	<string name="qif_ms_money_description">W zależności od klasyfikacji i kategorii, których używasz, może być odczytywane wyłącznie za pomocą Microsoft Money</string>
@@ -147,13 +147,14 @@
 	<string name="csv_description">Odczytywalne przez aplikacje obsługujące arkusze kalkulacyjne, takie jak Microsoft® Excel or Google™ Docs. Pierwszy wyeksportowany wiersz zawiera nagłówki kolumn, poprzedzoną wierszem dla każdej transakcji</string>
 
 	<string name="import_file_confirm_format">Chcesz importować ^1</string> <!-- This is a question, but the question mark will be added progrmatically -->
-<!-- New Fix plurals -->	<string-array name="import_files_confirm_format_plurals">
-		<item/> <!-- Intentionally left empty -->
+	<string-array name="import_files_confirm_format_plurals">
+		<item/> <!-- Not used -->
 		<item>Chcesz importować ^1 pliki</item> <!-- This is a question, but the question mark will be added progrmatically -->
-		<item>Chcesz importować ^1 pliki</item> <!-- This is a question, but the question mark will be added progrmatically -->
+		<item/> <!-- Not used -->
 	</string-array>
 
 	<string name="general">Generalnie</string>
+	<string name="starting_screen">Ekran startowy</string>
 	<string name="negative_amount_format">Format ujemnej kwoty</string>
 
 	<string name="show_currency_symbol">Pokaż symbol waluty</string>
@@ -167,15 +168,15 @@
 	<string name="space_between_symbol_and_amount">Miejsce pomiędzy symbolem a kwotą</string> <!-- This is a checkbox to indicate that the user wants a space put between the currency symbol and the amount -->
 
 	<string name="password_time_out_period">Okreś wygaśnięcia hasła</string>
-<!-- New Fix plurals -->	<string-array name="n_seconds_format_plurals">
+	<string-array name="n_seconds_format_plurals">
 		<item/> <!-- Intentionally left empty as the seconds are always > 1 -->
 		<item>^1 sekund</item>
-		<item>^1 sekund</item>
+		<item/> <!-- Not used -->
 	</string-array>
-<!-- New Fix plurals -->	<string-array name="n_minutes_format_plurals">
+	<string-array name="n_minutes_format_plurals">
 		<item>^1 minut</item>
 		<item>^1 minuty</item>
-		<item>^1 minuty</item>
+		<item/> <!-- Not used -->
 	</string-array>
 
 	<string name="set_button_behavior_format">^1 zachowanie przycisku</string>
@@ -193,9 +194,8 @@
 	<string name="warn_if_incorrect_category_type_description">Jeśli zaznaczone, ostrzeżenie będzie wyświetlone, jeśli sprecyzowany zostanie zły typ kategorii</string>
 
 	<string name="modification_confirmation">Potwierdzenie modyfikacji</string>
-	<string name="none">Żaden</string>
 	<string-array name="modification_confirmation_items">
-		<item>@string/none</item>
+		<item>Żaden</item>
 		<item>Tylko zgodne</item>
 		<item>Wszystkie</item>
 	</string-array>
@@ -215,7 +215,7 @@
 	<string name="show_keyboard_automatically_description">Jeśli zaznaczone, wyskakująca klawiatura zostanie pokazana w momencie dodania nowej transkakcji</string>
 
 	<string name="notes_in_transaction_window">Notatki w oknie transakcji</string>
-	<string name="notes_in_transaction_window_description">Jeśli zaznaczone, jednoliniowa notatka może być edytowana w oknie transakcji</string>
+	<string name="notes_in_transaction_window_description">Jeśli zaznaczone,  jednoliniowa notatka może być edytowana w oknie transakcji</string>
 
 	<string name="new_category_in_transaction_window">Nowa kategoria w oknie transakcji</string>
 	<string name="new_category_in_transaction_window_description">Jeśli zaznaczone, nowa kategoria może być utworzona z okna transakcji</string>
@@ -234,26 +234,26 @@
 	<string name="date_in_file_name_description">Jeśli zazanaczone, data dzisiejsza zostanie dołączona do pliku imiennego w czasie wysyłki</string>
 
 	<string name="automatic_backup">Automatyczna kopia zapasowa</string>
-	<string name="automatic_backup_description">Jeśli zaznaczony, zostanie automatycznie utworzona kopia zapasowa tej książki</string>
+	<string name="automatic_backup_description">Jeśli zaznaczony, zostanie automatycznie utworzona kopia zapasowa tej księgi</string>
 
 	<string name="backup_how_often">Jak często robić kopię zapasową</string> <!-- This is a question, but the question mark will be added progrmatically -->
 
 	<string name="auto_backup_notify_description">Jeśli zaznaczone, informacja zostanie wyświetlona po operacji robienia kopii zapasowej</string>
 
 	<string name="backed_up_book_format">Zrobiono kopię zapasową ^1</string>
-<!-- New Fix plurals -->	<string-array name="backed_up_books_format_plurals">
-		<item/> <!-- Intentionally left empty -->
+	<string-array name="backed_up_books_format_plurals">
+		<item/> <!-- Not used -->
 		<item>Zrobiono kopię zapasową ^1 ksiąg</item>
-		<item>Zrobiono kopię zapasową ^1 ksiąg</item>
+		<item/> <!-- Not used -->
 	</string-array>
 
-<!-- New Fix plurals -->	<string-array name="book_exported_format_plurals">
+	<string-array name="book_exported_format_plurals">
 		<item>Transakcja ^1 wyeksportowana</item>
 		<item>Transakcje ^1 wyeksportowana</item>
-		<item>Transakcje ^1 wyeksportowana</item>
+		<item/> <!-- Not used -->
 	</string-array>
 
-	<string name="failed_to_back_up_book">Nieudane utworzenie kopii zapasowej książki</string>
+	<string name="failed_to_back_up_book">Nieudane utworzenie kopii zapasowej księgi</string>
 	<string name="no_space_left_on_sd_card">Brak miejsca na karcie SD</string>
 	<string name="cannot_restore_newer_version">Nie można odtworzyć kopii zapasowej, ponieważ została utworzona za pomocą nowszej wersji ^1.\n\nZainstaluj, proszę, najnowszą wersję ^1 i spróbuj ponownie</string>
 	
@@ -268,12 +268,12 @@
 	<string name="qif_csv_decimal_mark">Znak ułamka dziesiętnego QIF/CSV</string>
 	<string-array name="qif_csv_decimal_marks">
 		<item>Punkt ułamka dziesiętnego</item>
-		<item>@string/comma</item>
+		<item>@string/przecinek</item>
 	</string-array>
 
 	<string name="csv_delimiter">Określnik CSV</string>
 	<string-array name="csv_delimiters">
-		<item>@string/comma</item>
+		<item>@string/przecinek</item>
 		<item>Średnik</item>
 	</string-array>
 
@@ -292,12 +292,12 @@
 
 	<string name="maintain_entries">Zachowaj wpisy</string>
 	<string name="maintain_number_field_entries">Zachowaj wpisy numery pól wpisów</string>
-	<string name="maintain_number_field_entries_description">Pozwala Ci na wykasowanie już nie używanych numerów pól wpisów transkacji</string>
+	<string name="maintain_number_field_entries_description">Pozawala Ci na wykasowanie już nie używanych numerów pól wpisów transkacji</string>
 
 	<string name="delete_entry_warning_format">Wpis ^1 zostanie usunięty</string>
-<!-- New Fix plurals -->	<string-array name="delete_entries_warning_format_plurals">
-		<item/> <!-- Intentionally left empty -->
+	<string-array name="delete_entries_warning_format_plurals">
+		<item/> <!-- Not used -->
 		<item>^1 wpisy zostaną wykasowane</item>
-		<item>^1 wpisy zostaną wykasowane</item>
+		<item/> <!-- Not used -->
 	</string-array>
 </resources>

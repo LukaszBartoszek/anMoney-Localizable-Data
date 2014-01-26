@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="pl">
 	<string name="account">Konto</string>
 	<string name="accounts">Konta</string>
 	<string name="all_accounts">Wszystkie konta</string>
@@ -14,6 +14,7 @@
 	<string name="account_balances">Saldo rachunku</string>
 	<string name="vehicle">Pojazd</string>
 	<string name="property">Nieruchmość</string> <!-- As in "real estate" -->
+	<string name="view_accounts">Zobacz konta</string>
 	<string name="new_account">Nowe konto</string>
 	<string name="edit_account">Edytuj konto</string>
 	<string name="balance_noun">Saldo</string> <!-- Account balance -->
@@ -43,15 +44,15 @@
 	<string name="amount_owed_this_month">Łączna suma zobowiązań w bieżącym miesiącu</string>
 	<string name="service_charge_amount">Wysokość opłat za obsługę</string> <!-- As in bank service charge -->
 	<string name="service_charge_category">Kategoria opłat za obsługę</string>
-	<string name="service_charge_notes_format">Service charge for statement period ending on ^1</string>
-<!-- New -->	<string name="interest_earned_amount">Interest earned amount</string>
-<!-- New -->		<string name="interest_earned_category">Interest earned category</string>
-<!-- New -->		<string name="interest_earned_notes_format">Interest earned for statement period ending on ^1</string>
-<!-- New -->		<string name="interest_paid_amount">Interest paid amount</string>
-<!-- New -->		<string name="interest_paid_category">Interest paid category</string>
-<!-- New -->		<string name="interest_paid_notes_format">Interest paid for statement period ending on ^1</string>
-<!-- New -->		<string name="clear_all_transactions">Clear all transactions</string> <!-- This is a question, but the question mark will be added progrmatically. "Clear" as in Mark the transactions cleared -->
-	<string name="clear_all_transactions_on_all_pages">Clear all transactions on all the pages</string> <!-- This is a question, but the question mark will be added progrmatically. "Clear" as in Mark the transactions cleared -->
+	<string name="service_charge_notes_format">Opłata administracyjna dla okresu obrachunkowego kończącego się ^1</string>
+	<string name="interest_earned_amount">Kwota przychodów z odsetek</string>
+	<string name="interest_earned_category">Kategoria przychodów z odsetek</string>
+	<string name="interest_earned_notes_format">Przychody z odsetek dla okresu obrachunkowego, kończącego się ^1</string>
+	<string name="interest_paid_amount">Kwota zapłaconych odsetekInterest paid amount</string>
+	<string name="interest_paid_category">Kategoria odsetek zapłaconych</string>
+	<string name="interest_paid_notes_format">Odsetki zapłacone dla okresu obrachunkowego, kończącego się ^1</string>
+	<string name="clear_all_transactions">Wyczyść wszystkie transakcje</string> <!-- This is a question, but the question mark will be added progrmatically. "Clear" as in Mark the transactions cleared -->
+	<string name="clear_all_transactions_on_all_pages">Wyczyść transakcje na wszystkiech stronach</string> <!-- This is a question, but the question mark will be added progrmatically. "Clear" as in Mark the transactions cleared -->
 	<string name="export_account">Eksportuj konto</string>
 	<string name="delete_account">Usuń konto</string>
 	<string name="close_account">Zamknij konto</string>
@@ -59,8 +60,8 @@
 	<string name="repair_account">Napraw konto</string>
 	<string name="repaired">Naprawiono</string>
 	<string name="copy_account_number">Skopiuj numer konta</string>
-<!-- New -->		<string name="book_total">Book total</string>
-<!-- New -->		<string name="favorites_total">Favourites total</string>
+	<string name="book_total">Książka całościowo</string>
+	<string name="favorites_total">Ulubione całościowo</string>
 	<string name="delete_account_warning_part1_format">Konto ^1 zostanie całkowicie usunięte.\n\nJako, że konto to używane jest w transakcjach, również one zostaną usunięte</string>
 	<string name="delete_account_warning_part2_format">Aby ukryć konto,ale zachować historię transakcji, stuknij ^1 i zamiast tego zamknij konto</string> <!-- ^1 = OK -->
 	<string name="no_accounts">Nie masz żadnych kont</string>
@@ -104,8 +105,8 @@
 	<string name="invalid_year">Niepoprawne</string>
 	<string name="invalid_vin_number">Musi być 17 liter i/lub cyfr</string>
 	<string name="invalid_url">Niepoprawny adres URL</string>
-	<string name="opening_balance_warning_message">To konto posiada nierozliczone transakcje.\n\nZmiana salda otwarcie może spowodować, iż Twoje wpisy mogą różnić się od danych instytucji finansowej</string>
-	<string name="no_exchange_rate_warning_message_format">Nie ma stopy wymiany pomiędzy ^1 i ^2, co spowoduje, że saldo będzie niepoprawne</string> <!-- ^1 and ^2 are currency names -->
+	<string name="opening_balance_warning_message">To konto posiada nierozliczone transakcje.\n\nZmiana salda otwarcia może spowodować, iż Twoje wpisy mogą różnić się od danych instytucji finansowej</string>
+	<string name="no_exchange_rate_warning_message_format">Brak kursu wymiany pomiędzy ^1 i ^2, co spowoduje, że saldo będzie niepoprawne</string> <!-- ^1 and ^2 are currency names -->
 	<string name="would_you_like_to_give_one_after_saving">Chciałbyś dodać jedno po zapisaniu</string> <!-- This is a question, but the question mark will be added progrmatically -->
 	<string name="net_worth">Wartość netto</string> <!-- Net worth is an accounting term -->
 	<string name="net_worth_over_time">Wartość netto w czasie / Prognoza</string> <!-- This is the report name -->
@@ -118,8 +119,7 @@
 	<string name="cleared_total">Całość wymazana</string>
 	<string name="reconciled_total">Całość uzgodniona</string>
 	<string name="filtered_total">Całość przefiltrowana</string>
-<!-- New --> <string name="available_credit">Available credit</string> <!-- As in "the amount availble to spend on a credit card" -->
-	<string name="default_cash_account_name">Moja dzienna gotówka</string>
+	<string name="default_cash_account_name">Moja codzienna gotówka</string>
 	<string name="default_checking_account_name">Moje obecne konto</string>
 	<string name="default_savings_account_name">Moje konto oszczędnościowe</string>
 	<string name="default_credit_account_name">Moja karta kredytowa</string>
@@ -132,23 +132,23 @@
 	<string name="total_for_month">Łącznie dla miesiąca</string>
 	<string name="period">Okres</string>
 	<string name="total_for_period">Łącznie dla okresu</string>
-<!-- New -->		<string name="total_for_unassigned">Total for unassigned</string> <!-- Total for transactions not given a category -->
+	<string name="total_for_unassigned">Total for unassigned</string> <!-- Total for transactions not given a category -->
 	<string name="make_account_budget_question_part1">Czy chciałbyś uczynić to konto częścią swojego budżetu</string> <!-- This is a question, but the question mark will be added progrmatically -->
 	<string name="make_account_budget_question_part2_format">Nawet jeśli stukniesz ^1, możesz zrobić to później poprzez edycję konta</string> <!-- Tap is "No" -->
 	<string name="show_option_format">Pokaż ^1 opcję</string> <!-- This will say "Show the Next Check Number option" -->
 	<string name="show_closed">Pokaż zamknięte</string> <!-- As in "Show closed accounts" -->
 
 	<string name="no_accounts_yet">Brak jeszcze kont</string>
-<!-- New Fix plurals -->	<string-array name="account_count_format_plurals">
-		<item/> <!-- Intentionally left empty -->
+	<string-array name="account_count_format_plurals">
+		<item/> <!-- Not used -->
 		<item>^1 konta</item>
-		<item>^1 konta</item>
+		<item/> <!-- Not used -->
 	</string-array>
 
-<!-- New Fix plurals -->	<string-array name="pending_count_plurals">
+	<string-array name="pending_count_plurals">
 		<item>^1 nowa transakcja</item>
 		<item>^1 nowe transakcje</item>
-		<item>^1 nowa transakcja</item>
+		<item/> <!-- Not used -->
 	</string-array>
 
 	<string-array name="account_group_labels">
@@ -201,8 +201,8 @@
 		<item>Pożyczka</item>
 <!-- 		<item>Other liability</item> Loan Loans -->
 		<item>Pozostałe zobowiązanie</item>
-		<item>@string/property</item>
-		<item>@string/vehicle</item>
+		<item>@string/nieruchomość</item>
+		<item>@string/pojazd</item>
 		<item>Pozostałe aktywa</item>
 		<item>Iwestycyjne konto gotówkowe</item>
 	</string-array>
@@ -213,10 +213,10 @@
 		<item>Karta kredytowa</item>
 		<item>Linia kredytowa</item>
 		<item>Pożyczka</item>
-		<item>@string/liability</item>
-		<item>@string/property</item>
-		<item>@string/vehicle</item>
-		<item>@string/asset</item>
+		<item>@string/zobowiązanie</item>
+		<item>@string/nieruchomość</item>
+		<item>@string/pojazd</item>
+		<item>@string/aktywa</item>
 		<item>Inwestycja</item>
 	</string-array>
 
@@ -224,48 +224,48 @@
 	<string name="show_account_numbers_description">Pokaż numery kont poniżej nazwy (jeśli jakieś istnieją)</string>
 	
 	<string name="use_abbreviations">Użyj skrótów</string>
-	<string name="use_abbreviations_description">Wyświetl skrót konta zamiast jego nazwy (jeśli istnieje) Displays the account’s abbreviation, instead of its name, if there is one</string>
+	<string name="use_abbreviations_description">Zamiast pełnej nazwy konta, wyświetl jej skrót (jeśli istnieje)</string>
 	
-	<string name="show_group_totals">Show group totals</string>
+	<string name="show_group_totals">Pokaż grupy łącznie</string>
 	<string name="show_group_totals_description">Wyświetl łącznie dla każdej grupy</string>
 
 	<string-array name="account_list_status_filter_title_bar">
-		<item>@string/all_accounts</item>
-		<item>@string/open_accounts</item>
-		<item>@string/favorite_accounts</item>
+		<item>@string/wszystkie konta</item>
+		<item>@string/konta_otwate</item>
+		<item>@string/konta_ulubione</item>
 	</string-array>
 
 	<string-array name="account_list_sort_order_title_bar">
-		<item>@string/type</item>
+		<item>@string/typ</item>
 		<item/> <!-- Intentionally left empty -->
-		<item>@string/name</item>
-		<item>@string/financial_institution</item>
+		<item>@string/nazwa</item>
+		<item>@string/instytucja_finansowa</item>
 		<item/> <!-- Intentionally left empty -->
 	</string-array>
 
 	<string name="all_transactions">Wszystkie transakcje</string>
 	<string-array name="transaction_list_filter_title_bar">
-		<item>@string/all_transactions</item>
-		<item>@string/unreconciled2</item>
-		<item>@string/reconciled2</item>
-		<item>@string/cleared2</item>
-		<item>@string/pending2</item>
-		<item>@string/follow_up2</item>
-		<item>@string/not_exported_transaction2</item>
+		<item>@string/wszystkie transakcje</item>
+		<item>@string/niezgodne2</item>
+		<item>@string/zgodne2</item>
+		<item>@string/rozliczone2</item>
+		<item>@string/oczekujące2</item>
+		<item>@string/uzupelniające2</item>
+		<item>@string/transakcj niewyeksportowane2</item>
 	</string-array>
 	
-	<string name="display_order">Porżadek wyświetlania</string>
-	<string name="entry_date">Data wejściowa</string>
+	<string name="display_order">Porządek wyświetlania</string>
+	<string name="entry_date">Data wprowadzenia</string>
 	<string-array name="transaction_list_sort_order_title_bar">
-		<item>@string/date</item>
-		<item>@string/number</item>
-		<item>@string/payee</item>
-		<item>@string/amount</item>
-		<item>@string/category</item>
-		<item>@string/entry_date</item>
+		<item>@string/data</item>
+		<item>@string/liczba</item>
+		<item>@string/płatnik</item>
+		<item>@string/kwota</item>
+		<item>@string/kategoria</item>
+		<item>@string/data_wprowadzenia</item>
 		<item/> <!-- Not unused -->
 		<item/> <!-- Not unused -->
-		<item>@string/account</item>
+		<item>@string/konto</item>
 	</string-array>
 	
 	<string name="date_range">Zakres czasowy</string>
@@ -289,14 +289,14 @@
 	<string name="next_two_weeks">Następny okres dwutygodniowy</string>
 	<string name="all_dates">Wszystkie okresy czasowe</string>
 	<string-array name="date_range_items">
-		<item>@string/all_dates</item>
+		<item>@string/wszystkie_daty</item>
 		<item>Wszystko do dnia dzisiejszego</item>
-		<item>@string/current_month</item>
-		<item>@string/current_year</item>
+		<item>@string/obecny_miesiąc</item>
+		<item>@string/obecny_rok</item>
 		<item>Miesiąc do dnia dzisiejszego</item>
 		<item>Rok do dnia dzisiejszego</item>
-		<item>@string/previous_month</item>
-		<item>@string/previous_year</item>
+		<item>@string/poprzedni_miesiąc</item>
+		<item>@string/poprzedni rok</item>
 		<item>Ostatnie 30 dni</item>
 		<item>Ostatne 3 miesiące</item>
 		<item>Ostatnie 6 miesięcy</item>
@@ -309,8 +309,8 @@
 		<item>Do ostatnich 3 miesięcy</item>
 		<item>Do ostatnich 6 miesięcy</item>
 		<item>Do ostatnich 12 miesięcy</item>
-		<item>@string/custom_dates</item>
-		<item>@string/day_0</item>
+		<item>@string/day_własne</item>
+		<item>@string/dzień_0</item>
 	</string-array>
 	<string-array name="transaction_list_date_range_title_bar">
 		<item>wszystkie daty</item>
@@ -351,5 +351,5 @@
 		<item/> <!-- Intentionally left empty -->
 	</string-array>
 	
-	<string name="display_grouping">Wyświetlanie grupowe</string> <!-- Allows the user to select a way to group their transactions -->
+	<string name="display_grouping">Wyświetl grupowanie</string> <!-- Allows the user to select a way to group their transactions -->
 </resources>

@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="pl">
 
 	<string name="report">Raport</string>
 	<string name="reports">Raporty</string>
 	<string name="view_report">Zobacz raport</string>
+	<string name="view_reports">Zobacz reporty</string>
 	<string name="report_canceled">Raport anulowany</string>
 	<string name="export_report">Eksportuj raport</string>
 	<string name="report_exported">Wyeksportowano pomyślnie na kartę SD</string>
@@ -42,7 +43,7 @@
 	<string name="chart_type">Typ wykresu</string>
 	<string name="text_report">Raport tekstowy</string>
 	<string name="pie_chart">Wykres kołowy</string>
-	<string name="line_chart">Wykres liniowy</string>
+	<string name="line_chart">wykres liniowy</string>
 	<string name="bar_chart">Wykres słupkowy</string>
 
 	<string name="page_format">Strona ^1</string>
@@ -53,9 +54,9 @@
 		<item>A4</item>
 		<item>A5</item>
 		<item>B5</item>
-<!-- New -->		<item>Letter</item>
-<!-- New -->		<item>Legal</item>
-<!-- New -->		<item>Tabloid</item>
+		<item>List</item>
+		<item>Legal</item>
+		<item>Tabloid</item>
 	</string-array>
 
 	<string name="page_orientation">Orientacja strony</string>
@@ -69,7 +70,7 @@
 	<string-array name="report_export_file_type">
 		<item>@string/csv</item>
 		<item>@string/pdf</item>
-<!-- New -->		<item>Web page</item>
+		<item>Web page</item>
 	</string-array>
 
 	<string-array name="report_export_file_type_description">

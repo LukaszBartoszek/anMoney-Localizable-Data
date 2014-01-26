@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="pl">
 
 	<string name="category_main_sub_separator">:</string>
 	<string name="category_main_sub_format">^1 ^2 ^3</string>
@@ -33,7 +33,6 @@
 	<string name="enter_classification_name">Wprowadź nazwę klasyfikacji</string>
 	<string name="enter_new_classification_name">Wprowadź nową nazwę klasyfikacji</string>
 	<string name="categories_and_classifications">Kategorie &amp; klasyfikacje</string>
-	<string name="no_categories_expense">Nie masz żadnych kategorii</string>
 	<string name="no_categories_expense">Nie masz żadnych kategorii wydatków</string>
 	<string name="no_categories_income">Nie masz żadnych kategorii przychodów</string>
 	<string name="no_classes">Nie masz żadnych klas</string>
@@ -64,6 +63,7 @@
 	<string name="change_expense_warning">Chcesz zmienić tę kategorię z wydatków na przychody lub na odwrót</string> <!-- This is a question, but the question mark will be added progrmatically -->
 	<string name="prepopulate">Wypełnij kategoriami domyślnymi</string>
 	<string name="short_categories">Załaduj tylko krótką listę kategorii (będziesz mieć możliwość załadowania pełnej listy później)</string>
+	<string name="view_categories">Zobacz kategorie</string>
 	<string name="category_not_found">Kategoria nie odnzaleziona</string>
 	<string name="class_not_found">Klasa nie odnaleziona</string>
 	<string name="total_income">Przychód całkowity</string>
@@ -90,15 +90,15 @@
 			
 	<string name="no_categories_yet">Brak jeszcze kategorii</string>
 	<string name="no_classes_yet">Brak jeszcze klas</string>
-<!-- New Fix plurals -->	<string-array name="category_count_format_plurals">
-		<item/> <!-- Intentionally left empty -->
+	<string-array name="category_count_format_plurals">
+		<item/> <!-- Not used -->
 		<item>^1 kategorie</item>
-		<item>^1 kategorie</item>
+		<item/> <!-- Not used -->
 	</string-array>
-<!-- New Fix plurals -->	<string-array name="uncategorized_count_plurals">
+	<string-array name="uncategorized_count_plurals">
 		<item>^1 nieskategoryzowana transakcja</item>
 		<item>^1 nieskategoryzowane transakcje</item>
-		<item>^1 nieskategoryzowane transakcje</item>
+		<item/> <!-- Not used -->
 	</string-array>
 
 	<string-array name="default_classifications">

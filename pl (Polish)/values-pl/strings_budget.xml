@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="pl">
 	<string name="budget">Budżet</string>
+	<string name="view_budget">Zobacz budżet</string>
 	<string name="edit_budget_item">Edytuj element budżetu</string>
 	<string name="new_budget_item">Nowy element budżetu</string>
 	<string name="over_budget">Przekroczenie budżetu</string>
